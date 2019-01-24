@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sha256HashApps
 {
@@ -10,6 +6,9 @@ namespace Sha256HashApps
     {
         static void Main(string[] args)
         {
+            string encriptPassword = Sha256Hash.EncriptSha256Hash("shohag");
+            Console.WriteLine(encriptPassword);
+            Console.ReadKey();
         }
     }
 }
